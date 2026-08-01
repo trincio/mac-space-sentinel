@@ -1,0 +1,14 @@
+{
+  "schema": "mac-space-sentinel.connector-manifest/v1",
+  "name": "mac-space-sentinel",
+  "version": "0.1.0",
+  "operations": [
+    {
+      "name": "scan",
+      "effect": "read_only_inventory",
+      "request_schema": "mac-space-sentinel.connector-request/v1",
+      "response_schema": "mac-space-sentinel.connector-response/v1"
+    }
+  ],
+  "denied_operations": ["apply", "move_to_trash", "install_tools", "arbitrary_command"]
+}

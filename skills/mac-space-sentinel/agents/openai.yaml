@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mac Space Sentinel"
+  short_description: "Analyze Mac storage safely for agents"
+  default_prompt: "Use $mac-space-sentinel to analyze this Mac storage report and prepare a safe review plan."
